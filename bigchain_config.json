@@ -1,0 +1,37 @@
+{
+  "network": {
+    "seed_nodes": [
+      "45.191.11.128:8333"
+    ],
+    "environment": "production",
+    "seed_ip": "45.191.11.128",
+    "backup_seeds": []
+  },
+  "seed_node": {
+    "is_seed_node": true,
+    "seed_node_name": "Local Seed Node",
+    "max_connections": 100,
+    "history_retention_days": 30,
+    "public_address": "45.191.11.128:8333"
+  },
+  "mining": {
+    "enabled": true,
+    "difficulty": 0,
+    "block_time_minutes": 10,
+    "mining_reward": 1.0,
+    "cooperative_mode": true,
+    "reward_distribution": "all_nodes"
+  },
+  "p2p": {
+    "port": 8333,
+    "bandwidth_port": 8334,
+    "api_port": 8080,
+    "max_connections": 100
+  },
+  "sync": {
+    "enable_auto_sync": true,
+    "sync_interval_mins": 5,
+    "max_blocks_per_sync": 1000,
+    "enable_compression": true
+  }
+}

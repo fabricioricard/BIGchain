@@ -1,0 +1,123 @@
+# Binários
+bigchain
+bigchain.exe
+*.exe
+*.dll
+*.so
+*.dylib
+*.msi
+
+# Build directory
+build/
+dist/
+target/
+
+# Test binaries
+*.test
+
+# Coverage files
+*.out
+coverage.html
+
+# Go workspace file
+go.work
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows System Directories
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+Favorites/
+Links/
+Saved Games/
+Searches/
+OneDrive/
+
+# Blockchain data
+blockchain.json
+*.blockchain
+wallets/
+data/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+backup_*
+
+# Configuration files with sensitive data
+config.local.json
+.env
+.env.local
+
+# Docker
+.dockerignore
+
+# Wallet files
+wallet_*.json
+
+# Rust/Cargo
+.cargo/
+.rustup/
+
+# Media files (seus arquivos pessoais)
+*.pdf
+*.zip
+*.rar
+*.7z
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.jfif
+*.svg
+*.ico
+
+# Outros
+.config/
+.docker/
+.ssh/
+.npm/
+.yarn/
+go/
